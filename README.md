@@ -8,15 +8,19 @@ Se você não tiver o Angular CLI instalado na sua máquina, basta executar o se
 
 #
 npm install -g @angular/cli
+#
 2. Clonando o Repositório e Instalando Dependências
 Clone o repositório em sua máquina utilizando o comando:
 
 #
-git clone https://github.com/MuriloTFROTB/gerador-de-senha.git
+git clone https://github.com/MuriloTFROTB/conversor-de-numeros-romanos.git
+
+#
 Depois, entre no diretório do projeto e instale as dependências com o comando:
 
 #
 cd gerador-de-senha
+#
 npm install
 
 #
@@ -25,4 +29,5 @@ Agora, para rodar o projeto localmente, use o seguinte comando para iniciar o se
 
 #
 ng serve
+#
 Isso iniciará a aplicação e, por padrão, ela estará disponível em http://localhost:4200/. Abra essa URL no seu navegador para ver o projeto em funcionamento.
