@@ -1,0 +1,83 @@
+.container {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1c;
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+        border-radius: 5px;
+        gap: 16px;
+        background-color: white;
+        height: 470px;
+
+        h1 {
+            font-size: 32px;
+            font-weight: 300;
+        }
+
+        .card-input {
+            margin-top: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            label {
+                font-size: 24px;
+                font-weight: 400;
+            }
+
+            input {
+
+                padding: 16px;
+                border-radius: 5px;
+                border: 1px solid gray;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+        }
+
+        .card-result {
+            display: flex;
+            justify-content: center;
+            .card-value {
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+
+                h2 {
+                    font-size: 24px;
+                    font-weight: 400;
+                }
+
+                .output-value {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    h1 {
+                        border: 1px solid;
+                        border-radius: 5px;
+                        font-size: 28px;
+                        padding: 12px;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+
+        button {
+            margin-top: 16px;
+            padding: 20px 0px;
+            background-color: #535353;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            font-size: 24px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+}

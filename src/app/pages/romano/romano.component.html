@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="card">
+        @if (mudar) {
+            <h1>Romano Para Decimal</h1>
+        <div class="card-input">
+            <label for="inputuser">Insira o Valor</label>
+            <input type="text" [(ngModel)]="inputUser" (input)="validadorDoInput(inputUser)" id="inputuser" />
+        </div>
+        <div class="card-result">
+            <div class="card-value">
+                <h2>Decimal</h2>
+                <div class="output-value">
+                    @if (decimal) {
+                    <h1>{{decimal}}</h1>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <button (click)="mudarConversao()">Decimal Para Romanos</button>
+        }@else{
+            <h1>Decimal Para Romanos</h1>
+            <div class="card-input">
+                <label for="inputuser">Insira o Valor</label>
+                <input type="text" [(ngModel)]="inputUser" (input)="validadorDoInput(inputUser)" id="inputuser" />
+            </div>
+            <div class="card-result">
+                <div class="card-value">
+                    <h2>Romano</h2>
+                    <div class="output-value">
+                        @if (roman) {
+                        <h1>{{roman}}</h1>
+                        }
+                    </div>
+                </div>
+            </div>
+    
+            <button (click)="mudarConversao()">Romano Para Decimal</button>
+        }
+    </div>
+</div>
