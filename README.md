@@ -1,6 +1,6 @@
 # Gerador de Senha
 
-Este é um projeto de um Gerador de Senha desenvolvido com Angular. Para utilizá-lo localmente, siga os passos abaixo.
+Este é um projeto de um conversor de numeros romanos desenvolvido com Angular. Para utilizá-lo localmente, siga os passos abaixo.
 
 ### 1. Instalando o Angular CLI
 
@@ -10,6 +10,7 @@ Se você não tiver o Angular CLI instalado na sua máquina, basta executar o se
 npm install -g @angular/cli
 #
 2. Clonando o Repositório e Instalando Dependências
+#
 Clone o repositório em sua máquina utilizando o comando:
 
 #
